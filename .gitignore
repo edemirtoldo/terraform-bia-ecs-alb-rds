@@ -1,0 +1,19 @@
+# Diretório de configuração do Terraform
+**/.terraform/*
+.terraform*
+
+# Arquivos de estado do Terraform (sensíveis)
+terraform.tfstate
+terraform.tfstate.*
+*.tfstate.backup
+
+# Lockfile do Terraform
+.terraform.lock.hcl
+
+# Arquivos de crash/debug do Terraform
+crash.log
+
+# Arquivos de credenciais sensíveis (se aplicável)
+*.pem
+*.key
+*.env
